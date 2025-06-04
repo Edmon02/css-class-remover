@@ -5,6 +5,7 @@ Thumbs.db
 # IDE files
 .vscode/
 .idea/
+classnames.md
 
 # Temporary files
 *.tmp
