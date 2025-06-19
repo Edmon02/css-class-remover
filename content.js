@@ -2,7 +2,7 @@
     'use strict';
 
     // Configuration
-    const TARGET_CLASSES = ['test-item-child', 'blur'];
+    const TARGET_CLASSES = ['test-item-child', 'blur', 'redirect-on-click'];
     const DEBOUNCE_DELAY = 100;
 
     let allowedDomains = [];
