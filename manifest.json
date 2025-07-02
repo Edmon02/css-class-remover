@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "CSS Class Remover",
-    "version": "1.0.0",
-    "description": "Removes test-item-child and blur CSS classes from div elements on specified websites",
+    "name": "CSS Class Remover & Redirect Blocker",
+    "version": "2.2.1",
+    "description": "Remove CSS classes and prevent unwanted redirects on specified websites",
     "permissions": [
         "storage",
         "activeTab"
@@ -15,13 +15,14 @@
             "js": [
                 "content.js"
             ],
-            "run_at": "document_idle"
+            "run_at": "document_start",
+            "all_frames": true
         }
     ],
     "options_page": "options.html",
     "action": {
         "default_popup": "popup.html",
-        "default_title": "CSS Class Remover"
+        "default_title": "CSS Class Remover & Redirect Blocker"
     },
     "icons": {
         "16": "icons/icon16.png",
